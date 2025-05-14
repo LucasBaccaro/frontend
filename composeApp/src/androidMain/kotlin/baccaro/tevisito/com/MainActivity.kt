@@ -4,7 +4,8 @@ import android.app.Application
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import baccaro.tevisito.di.initKoin
+import baccaro.tevisito.com.authentication.presentation.App
+import baccaro.tevisito.com.di.initKoin
 import org.koin.android.ext.koin.androidContext
 
 class MainActivity : ComponentActivity() {
